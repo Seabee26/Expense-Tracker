@@ -1,0 +1,66 @@
+.expenses
+{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    height:500px;
+    border:rgb(177, 9, 9) 5px solid;
+
+    
+}
+.overall
+{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    border:rgb(21, 6, 240) 5px solid;
+    height:500px;
+
+  
+}
+.incomes
+{
+    margin-left: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    height:500px;
+    border:rgb(13, 134, 84) 5px solid;
+}
+.info
+{
+    text-align: center;
+}
+h3:nth-of-type(2n){
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 98%;
+    height: 60%;
+    border-radius: 10px;
+}
+#tot_inc{
+    background-color:rgba(255, 208, 0, 0.925) ;
+}
+#tot_exp{
+    background-color:rgba(255, 208, 0, 0.925);
+}
+#money{
+    background-color: rgb(95, 95, 235)
+}
+#select_btn{
+    background-image: linear-gradient(to right,rgb(99, 92, 99),white);
+}
+#add_btn{
+    background-image: linear-gradient(to left,rgb(90, 85, 90),white);
+    margin-left: 0;
+}
+#desc{
+    background-color: gainsboro;
+}
+#amt{
+    margin-right: 0;
+    background-color: rgba(121, 119, 119, 0.199);
+}
