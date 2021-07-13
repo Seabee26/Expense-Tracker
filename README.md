@@ -1,0 +1,1 @@
+This is a website that allows you to know your expenses and savings according to your transactions.
